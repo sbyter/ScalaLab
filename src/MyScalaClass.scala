@@ -41,4 +41,6 @@ class MyScalaClass {
   def sumPowersOfTwo2 = sum(powerOfTwo)
 
   val t = sumInts2(10, 20)
+
+  val f = 10
 }
