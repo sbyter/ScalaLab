@@ -1,6 +1,9 @@
 /**
   * Created by HEBL on 04-07-2016.
   */
+
+package test
+
 import org.scalatest.FlatSpec
 
 class TestMyScalaClass extends FlatSpec{
@@ -27,5 +30,19 @@ class TestMyScalaClass extends FlatSpec{
       def m = new MyScalaClass
       //assert(m.sumInts(1,5) == 15)
       assert(m.t == 165)
+    }
+
+    "Text" should "display" in {
+      def file = new FileLab
+      file.out()
+    }
+
+    "Testing" should "collections" in {
+      def m = new MyScalaClass
+      println(m.f1)
+      println(m.f2)
+      println(m.f3)
+      println(m.f4)
+      println(m.f5)
     }
 }
